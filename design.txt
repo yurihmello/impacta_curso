@@ -19,9 +19,12 @@
                 - Durante a viagem. o aplicativo deixará claramente o tempo estimado até o fim da viagem.
           
           a.e Aplicativo deverá apresentar o percurso para o cliente a bordo do veículo;
-                
+                - Durante a viagem, o aplicativo deverá mostrar um mapa e o local na qual está sobrevoando. Para manter o cliente informado do local em que está.
             
           a.f Aplicativo poderá questionar ao passageiro se ele deseja compartilhar a viagem/Vôo com outros passageiros;
+                - Durante a solicitação, o cliente poderá decidir se irá compartilhar sua viagem com outras pessoas com destinos parecidos;
+          
+          
     b)Aplicativo do piloto:
           - Aplicativo deverá informar condições climáticas para a corrida, a fim de evitar transtornos e emergências;
           - Aplicativo deverá mostrar o endereço e o trajeto até o local em que o passageiro se encontra;
