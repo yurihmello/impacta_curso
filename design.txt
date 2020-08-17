@@ -3,36 +3,59 @@
 --Design da estrutura do software:
 
     a)Aplicativo do cliente:
-          a.a Aplicativo deve ser de fácil uso para cliente solicitar corrida;
-                - Veículo utilizará a localização atual do passageiro como local de embarque;
-                - Com o aplicativo aberto, o cliente poderá utilizar comando de voz para dizer o destino;
-                - Chamar o veículo através de 2 toques na tela para confirmar a solicitação de uma viagem;
-                - O pagamento será realizado no momento da solicitação, utilizando um cartão de crédito cadastrado no próprio aplicativo.
+          a.a Tela de Login:
+                - Criar tela inicial para cliente logar com e-mail e senha;
+                - Na tela inicial, colocar botão para novos clientes se cadastrarem;
+                - Colocar botão de esqueci minha senha;
+                - Colocar botão para ligar para a central em caso de dúvida.
               
-          a.b Aplicativo deverá mostrar o valor da viagem em $Dólar;
-                - O valor deverá ser apresentado claramente antes da confirmação, para reduzir o número de suporte de desistências.
+          a.b Tela de Colocar Destino:
+                - Box para inclusão de endereço escrito manualmente;
+                - Botão para inserir via comando de voz o endereço do local.
               
-          a.c Aplicativo deverá mostrar o tempo em que o veículo irá encontrar o passageiro no local combinado;
-                - Ao confirmar a viagem, o passageiro poderá ver a localização do veículo até o seu local atual, local de encontro.
+          a.c Confirmação da viagem:
+                - Printar Box com Preço;
+                - Printar box com tempo de viagem;
+                - Botão para confirmar.
                 
-          a.d Aplicativo deverá mostrar o tempo estimado de vôo até o local desejado;
-                - Durante a viagem. o aplicativo deixará claramente o tempo estimado até o fim da viagem.
+          a.d Mostrar Mapa com localização do Veículo:
+                - Apresentar mapa da cidade com a distância e o local em que o veículo está;
+                - Apresentar o tempo real em que o veículo demorará para chegar.
           
-          a.e Aplicativo deverá apresentar o percurso para o cliente a bordo do veículo;
-                - Durante a viagem, o aplicativo deverá mostrar um mapa e o local na qual está sobrevoando. Para manter o cliente informado do local em que está.
-            
-          a.f Aplicativo poderá questionar ao passageiro se ele deseja compartilhar a viagem/Vôo com outros passageiros;
-                - Durante a solicitação, o cliente poderá decidir se irá compartilhar sua viagem com outras pessoas com destinos parecidos;
+          a.e Pegar passageiro:
+                - Quando o veículo chegar, criar botão p/ perguntar ao passageiro se já está no veículo (para mostrar o percurso);
+
+          a.f Mostrar mapa com localização em tempo real ao passageiro:
+                - Apresentar o mapa com a localização atual;
+                - Apresentar o tempo em que irá demorar até o destino;
+
           
     b)Aplicativo do piloto:
-          b.a Aplicativo deverá informar condições climáticas para a corrida, a fim de evitar transtornos e emergências;
-                - Possuir botão no software para que o piloto possa informar a central e uma unidade de emergência, informando o local atual.
+          b.a Tela de Login:
+                - Criar tela inicial para piloto logar com e-mail e senha;
+                - Na tela inicial, colocar botão para novos pilotos se cadastrarem;
+                - Colocar botão de esqueci minha senha;
+                - Colocar botão para ligar para a central em caso de dúvida.
                 
-          b.b Aplicativo deverá mostrar o endereço e o trajeto até o local em que o passageiro se encontra;
-                - Mostrar local para o piloto poder se direcionar, seguindo a direção correta.
+          b.b Mostrar mapa com rotas viáveis:
+                - Apresentar mapa para piloto.
+                
+          b.c Contratação de viagem:
+                - Mostrar janela com pedido de viagem de um passageiro - Piloto aceita ou recusa a viagem;
+                - Mostrar destino do passageiro no mapa;
+                - Mostrar tempo até o passageiro;
+                
+          b.d Pegar passageiro:
+                - Botão para informar ao passageiro que está no local.
           
-          b.c Aplicativo deverá estar em comunicação com o veículo, a fim de enviar status do piloto e do veículo para uma central da empresa Uber2Passengers.
-                - O aplicativo deverá possuir uma comunicação precisa entre app piloto x app veículo, isto manterá a central informada de todos os eventos da viagem.
+          b.e Mostrar mapa com percurso:
+                - Apresentar mapa com rota até o destino;
+                - Apresentar tempo de viagem;
+                - Apresentar as melhores rotas.
+          
+          b.f Finalizar viagem:
+                - Botão para finalizar a viagem.
+          
           
     c)Sistema de monitoramento central:
           c.a Software para comunicação global em uma central controladora:
