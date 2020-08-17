@@ -1,1 +1,12 @@
+A empresa Uber2Passengers quer realizar viagens utilizando um carro voador que deverá cobrar até $10 por viagem.
 
+Requisitos:
+
+1 - Este veículo deverá possuir um motor capaz de voar;
+2 - O veículo deverá possuir assentos confortáveis para 4 pessoas;
+3 - O veículo deverá saber estacionar no local solicitado pelo cliente;
+4 - O valor da viagem deve ser apresentado antes do cliente confirmar a viagem;
+5 - O cliente poderá ter várias formas de pagamento
+      - Cartão
+      - Dinheiro;
+5 - O veículo deverá aguardar o passageiro se sentar e colocar o cinto de segurança;
