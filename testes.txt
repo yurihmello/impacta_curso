@@ -1,1 +1,48 @@
+#-- Como testar os requisitos do sistema
 
+-- Testes:
+
+a)Aplicativo do cliente:
+      a.a Tela de Login:
+        - Abrir aplicativo no celular;
+          
+      a.b Tela de Colocar Destino:
+        - Clicar no botão para iniciar uma nova viagem;
+        - Testar vários destinos;
+          
+      a.c Confirmação da viagem:
+        - Digitar destino e confirmar;
+            
+      a.d Mostrar Mapa com localização do Veículo:
+        - Após a confirmação da viagem, aguardar aparecer o mapa com a localização do veículo.
+
+      a.e Pegar passageiro:
+        - Quando o veículo chegar, aguardar aparecer na tela, o botão de confirmação de chegada do veículo.
+
+      a.f Mostrar mapa com localização em tempo real ao passageiro:
+        - Durante a viagem, manter aplicativo aberto no mapa.
+      
+b)Aplicativo do piloto:
+      b.a Tela de Login:
+        - Abrir aplicativo no celular;
+            
+      b.b Mostrar mapa com rotas viáveis:
+        - Manter aplicativo aberto, e validar se sugestão de rotas mais econômicas irão aparecer;
+            
+      b.c Contratação de viagem:
+        - Quando cliente solicitar uma viagem, clicar no botão de Aceitar ou Recusar viagem.
+            
+      b.d Pegar passageiro:
+        - Quando chegar no destino, apertar botão de chegada.
+      
+      b.e Mostrar mapa com percurso:
+        - Manter o aplicativo aberto para visualização do mapa e percurso.
+      
+      b.f Finalizar viagem: 
+        - Apertar botão de finalização de viagem, após o trajeto ter sido percorrido com sucesso.
+      
+      
+c)Sistema de monitoramento central:
+      c.a Software para comunicação global em uma central controladora:
+        - Logar no sistema gerencial, e validar o status global das viagens.
+© 2020 GitHub, Inc.
