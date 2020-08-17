@@ -1,1 +1,22 @@
+  
+#-- como desenvolver os componentes
+especificados em design.txt para atender o que está em
+requisitos.txt.
 
+-- Codificação:
+
+a)Aplicativo do cliente:
+      - Será necessário utilizar a linguagem Java para construção dos layouts e botões de Login;
+      - Utilizar Banco de Dados MySQL para o INSERT e SELECT das informações de cadastro;
+      - Utilizar serviço de MAPA já existente da Google;
+      - Utilizar serviço de pagamento para transação de cartões.
+      
+b)Aplicativo do piloto:
+      - Será necessário utilizar a linguagem Java para construção dos layouts e botões de Login;
+      - Utilizar Banco de Dados MySQL para o INSERT e SELECT das informações de cadastro;
+      - Utilizar serviço de MAPA já existente da Google;
+      - Utilizar serviço de pagamento para transação de cartões.
+      
+c)Sistema de monitoramento central:
+      - Será necessário utilizar a linguagem Java para construção dos layouts e botões de Login;
+      - Utilizar Banco de Dados MySQL para o INSERT e SELECT das informações de cadastro;
