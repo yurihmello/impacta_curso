@@ -2,7 +2,38 @@ A empresa Uber2Passengers quer realizar viagens utilizando um carro voador que d
 
 Requisitos:
 
-1 - O Veiculo deverá voar;
-2 - Será necessário um aplicativo para a comunicação entre o piloto do carro e o cliente;
-3 - Será necessário um aplicativo para o cliente;
-4 - Será necessário um aplicativo para o piloto;
+    a)Aplicativo do cliente:
+          a.a Aplicativo deve ser de fácil uso para cliente solicitar corrida;
+                - Veículo utilizará a localização atual do passageiro como local de embarque;
+                - Com o aplicativo aberto, o cliente poderá utilizar comando de voz para dizer o destino;
+                - Chamar o veículo através de 2 toques na tela para confirmar a solicitação de uma viagem;
+                - O pagamento será realizado no momento da solicitação, utilizando um cartão de crédito cadastrado no próprio aplicativo.
+              
+          a.b Aplicativo deverá mostrar o valor da viagem em $Dólar;
+                - O valor deverá ser apresentado claramente antes da confirmação, para reduzir o número de suporte de desistências.
+              
+          a.c Aplicativo deverá mostrar o tempo em que o veículo irá encontrar o passageiro no local combinado;
+                - Ao confirmar a viagem, o passageiro poderá ver a localização do veículo até o seu local atual, local de encontro.
+                
+          a.d Aplicativo deverá mostrar o tempo estimado de vôo até o local desejado;
+                - Durante a viagem. o aplicativo deixará claramente o tempo estimado até o fim da viagem.
+          
+          a.e Aplicativo deverá apresentar o percurso para o cliente a bordo do veículo;
+                - Durante a viagem, o aplicativo deverá mostrar um mapa e o local na qual está sobrevoando. Para manter o cliente informado do local em que está.
+            
+          a.f Aplicativo poderá questionar ao passageiro se ele deseja compartilhar a viagem/Vôo com outros passageiros;
+                - Durante a solicitação, o cliente poderá decidir se irá compartilhar sua viagem com outras pessoas com destinos parecidos;
+          
+    b)Aplicativo do piloto:
+          b.a Aplicativo deverá informar condições climáticas para a corrida, a fim de evitar transtornos e emergências;
+                - Possuir botão no software para que o piloto possa informar a central e uma unidade de emergência, informando o local atual.
+                
+          b.b Aplicativo deverá mostrar o endereço e o trajeto até o local em que o passageiro se encontra;
+                - Mostrar local para o piloto poder se direcionar, seguindo a direção correta.
+          
+          b.c Aplicativo deverá estar em comunicação com o veículo, a fim de enviar status do piloto e do veículo para uma central da empresa Uber2Passengers.
+                - O aplicativo deverá possuir uma comunicação precisa entre app piloto x app veículo, isto manterá a central informada de todos os eventos da viagem.
+          
+    c)Sistema de monitoramento central:
+          c.a Software para comunicação global em uma central controladora:
+                - Construir uma aplicação que integre e monitore todos os veículos e apps de pilotos, para gerenciar a frota e monitorar a evolução das viagens.
