@@ -1,1 +1,24 @@
+#-- Definição da estrutura e dos componentes do produto afim de atender as especificações descritas no documento requisito.txt
 
+    a) Carcaça:
+          - Construir carro robusto que aguente altas velocidades de vôo;
+          - Construir modelo com boa aerodinâmica para vôo (Isso irá colaborar na eficiência e uso do combustível, economia)
+          - Utilizar pintura diferenciada para identificação da marca/empresa.
+    b) Motor:
+          - Construir motor resistente e forte para voar por horas e realizar uma quantidade significativa de viagens;
+          - Construir motor que utilize pouco combustível para não degradar a atmosfera com CO2;
+          - Construir motos silencioso que não incomode o passageiro durante o vôo.
+    c)Interior do veículo:
+          - Desenvolver bancos acolchoados para garantir o bem estar e o conforte dos passageiros durante a viagem;
+          - Criar sistema de comunicação entre veículo x passageiro (recomendar música de acordo com perfil do passageiro, pedir temperatura em que melhor lhe agrade);
+          - Informar passageiro a cada 5 minutos sobre o status da viagem, duração da viagem;
+          - Desenvolver dispositivo de segurança caso ocorra alguma situação de emergência.
+    d)Aplicativo do cliente:
+          - Aplicativo deve ser de fácil uso para cliente solicitar corrida;
+          - Aplicativo deverá mostrar o valor da viagem em $Dólar;
+          - Aplicativo deverá mostrar o tempo em que o veículo irá encontrar o passageiro no local combinado.
+          - Aplicativo deverá mostrar o tempo estimado de vôo até o local desejado.
+    e)Aplicativo do piloto;
+          - Aplicativo deverá informar condições climáticas para a corrida, a fim de evitar transtornos e emergências;
+          - Aplicativo deverá mostrar o endereço e o trajeto até o local em que o passageiro se encontra;
+          - Aplicativo deverá estar em comunicação com o veículo, a fim de enviar status do piloto e do veículo para uma central da empresa Uber2Passengers.
